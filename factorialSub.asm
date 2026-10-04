@@ -1,0 +1,20 @@
+ORG 100H
+
+MOV AX,1
+MOV CX,5
+
+
+L1:
+MUL CX
+LOOP L1
+
+MOV BX,AX      
+
+MOV AX,1
+MOV CX,3
+
+L2:
+MUL CX
+LOOP L2
+
+SUB BX,AX     

@@ -1,0 +1,4 @@
+MOV AX,10
+MOV BX,20
+
+XCHG BX,AX
